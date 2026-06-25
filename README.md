@@ -27,22 +27,4 @@ python -m streamlit run app.py --server.address 127.0.0.1 --server.port 8502
 - Output is downloadable as a single PDF or a ZIP when you upload multiple PDFs.
 - You can adjust preferred logo width, minimum logo width, and page margin from the sidebar.
 
-## Deploy Online
 
-The easiest way to share this app is Streamlit Community Cloud.
-
-Files needed:
-
-- `app.py`
-- `requirements.txt`
-
-Steps:
-
-1. Create a new GitHub repository.
-2. Upload `app.py`, `requirements.txt`, and `README.md`.
-3. Go to [share.streamlit.io](https://share.streamlit.io/).
-4. Sign in with GitHub.
-5. Choose your repository and set the main file path to `app.py`.
-6. Click deploy.
-
-After deployment, Streamlit will give you a public link that anyone can open in a browser without installing Python or libraries.
